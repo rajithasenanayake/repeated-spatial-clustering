@@ -7,6 +7,6 @@ An ideal spatial clustering framework:
 - Should identify repeated spatial clusters.
 
 
-![image alt](Plot1.png)
+![image alt](Plot 1.png)
 
 
