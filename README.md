@@ -9,4 +9,5 @@ An ideal spatial clustering framework:
 
 ![image alt](Plot1.png)
 
+<img src="Plot1.png" align='center' width=50% height=50%>
 
