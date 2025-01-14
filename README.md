@@ -39,7 +39,7 @@ The primary objective of this project is to develop a framework for identifying 
 
 This is an extension of the standard agglomerative hierarchical clustering, where we can define contiguity constraints to guide the clustering process. Consider the follwing toy example shown in Figure 2.
 
-<div style="text-align: center;">
-  <img src="images/Plot2.png" width="300" alt="Toy Example">
-  <p style="margin-top: 10px; font-style: italic;">Figure 2: \\(X(1)=10,X(2)=20,X(3)=15, X(4)=12 from \mathbb{R}^{2}\\) with spatial locations 1, 2, 3, 4. The "must-links" created by the 2-nearest neighborhood structure are presented as edges.</p>
+<div style="text-align: left;">
+  <img src="images/Plot2.png" width="250" alt="Toy Example">
+  <p style="margin-top: 10px; font-style: italic;">Figure 2: X(1)=10, X(2)=20, X(3)=15, X(4)=12 with spatial locations 1, 2, 3, 4. The "must-links" created by the 2-nearest neighborhood structure are presented as edges.</p>
 </div>
