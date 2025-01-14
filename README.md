@@ -34,3 +34,7 @@ The primary objective of this project is to develop a framework for identifying 
 1. Identifying spatially contiguous clusters (Constrained Agglomerative Hierarchical Clustering is used for this step).
 2. Perform a nonparametric spatial invariance test to identify repeated spatial patterns.
 3. Re-partition the clusters based on the spatial invariance test results.
+
+#### Constrained Agglomerative Hierarchical Clustering
+
+test
