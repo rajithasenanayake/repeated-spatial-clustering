@@ -22,3 +22,9 @@ Clustering algorithms that only use attributes (including spatial attributes) re
 Regionalization clustering ensures spatially cohesive clusters but does not identify repeated spatial patterns:
 1. Density Based Spatial Clustering of Application with Noise (DBSCAN).
 2. Constrained Hierarchical Clustering.
+
+
+# Methods
+
+The data we work on this project:
+- $X(s) in \mathbb{R}$
