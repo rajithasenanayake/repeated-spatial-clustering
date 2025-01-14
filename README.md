@@ -8,7 +8,8 @@ An ideal spatial clustering framework:
 
 <p>
     <a href="url"><img src="images/Plot1.png" align="center" width="500"></a>"
-    <em>image_caption</em>
+
+    test caption
 </p>
 
 
