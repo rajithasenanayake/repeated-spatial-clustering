@@ -44,38 +44,8 @@ This is an extension of the standard agglomerative hierarchical clustering, wher
   <p style="margin-top: 10px; font-style: italic; text-align: left;">Figure 2: X(1)=10, X(2)=20, X(3)=15, X(4)=12 with spatial locations 1, 2, 3, 4. The "must-links" created by the 2-nearest neighborhood structure are presented as edges.</p>
 </div>
 
-$$\begin{table}[ht]
-\centering
-\caption{Initial step: distance and links.}
-\label{int_stp}
-\begin{minipage}{0.3\textwidth}
-    \centering
-    \subcaption{Distance}{}
-    \label{tab:distance}
-    \begin{tabular}{@{} c r r r @{}} % Adjust columns as needed
-        \toprule
-         & 1 & 2 & 3 \\
-        \midrule
-        2 & 10 \\
-        3 & 5 & 5 \\
-        4 & 2 & 8 & 3 \\
-        \bottomrule
-    \end{tabular}
-\end{minipage} \hspace{0.05\textwidth} % Adjust space between tables
-\begin{minipage}{0.3\textwidth}
-    \centering
-    \subcaption{Links}{}
-    \label{tab:links}
-    \begin{tabular}{@{} c c c @{}} % Adjust columns as needed
-        \toprule
-        From & To & Dissimilarity \\
-        \midrule
-        1 & 2 & 10\\
-        1 & 3 & 5\\
-        2 & 3 & 5\\
-        2 & 4 & 8\\
-        3 & 4 & 3\\
-        \bottomrule
-    \end{tabular}
-\end{minipage}
-\end{table}$$
+| Location | 1 | 2 | 3 |
+| --- | --- | --- | --- |
+| 2 | 10 |  |  |
+| 3 | 5 | 5 |  |
+| 4 | 2 | 8 | 3 |
