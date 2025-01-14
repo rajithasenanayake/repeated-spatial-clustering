@@ -7,7 +7,4 @@ An ideal spatial clustering framework:
 - Should identify repeated spatial clusters.
 
 
-![image alt](Plot1.png=100x200)
-
-<img src="https://github.com/rajithasenanayake/repeated-spatial-clustering/blob/main/Plot1.png?raw=true" align='center' width=50% height=50%>
 
