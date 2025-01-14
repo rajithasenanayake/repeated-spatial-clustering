@@ -9,5 +9,5 @@ An ideal spatial clustering framework:
 
 ![image alt](Plot1.png=100x200)
 
-<img src="Plot1.png" align='center' width=50% height=50%>
+<img src="https://github.com/rajithasenanayake/repeated-spatial-clustering/Plot1.png" align='center' width=50% height=50%>
 
