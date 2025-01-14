@@ -27,4 +27,5 @@ Regionalization clustering ensures spatially cohesive clusters but does not iden
 # Methods
 
 The data we work on this project:
-- \\(X(s) \in \mathbb{R}\\)
+- \\(X(s) \in \mathbb{R}^{n \times p}\\)
+- \\(s \in \mathcal{D} \subset \mathbb{R}^{d}, d = 2\\)
