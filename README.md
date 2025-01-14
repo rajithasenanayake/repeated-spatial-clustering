@@ -41,5 +41,5 @@ This is an extension of the standard agglomerative hierarchical clustering, wher
 
 <div style="text-align: center;">
   <img src="images/Plot2.png" width="300" alt="Toy Example">
-  <p style="margin-top: 10px; font-style: italic;">Figure 2: \\(X(1)=10,X(2)=20,X(3)=15, X(4)=12$ from $\mathbb{R}^{2}\\) with spatial locations 1, 2, 3, 4. The "must-links" created by the 2-nearest neighborhood structure are presented as edges.</p>
+  <p style="margin-top: 10px; font-style: italic;">Figure 2: \\(X(1)=10,X(2)=20,X(3)=15, X(4)=12 from \mathbb{R}^{2}\\) with spatial locations 1, 2, 3, 4. The "must-links" created by the 2-nearest neighborhood structure are presented as edges.</p>
 </div>
