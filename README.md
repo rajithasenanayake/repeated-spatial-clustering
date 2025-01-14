@@ -92,3 +92,68 @@ This is an extension of the standard agglomerative hierarchical clustering, wher
 | 2 | 10 |  |  |
 | 3 | 5 | 5 |  |
 | 4 | 2 | 8 | 3 |
+
+<div style="display: flex; gap: 20px; justify-content: space-between;">
+
+<table>
+  <tr>
+    <th>Location</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>10</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>5</td>
+    <td>5</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>2</td>
+    <td>8</td>
+    <td>3</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>From</th>
+    <th>To</th>
+    <th>Distance</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>3</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>3</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>4</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>4</td>
+    <td>3</td>
+  </tr>
+</table>
+
+</div>
+
