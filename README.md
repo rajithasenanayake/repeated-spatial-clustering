@@ -7,3 +7,5 @@ An ideal spatial clustering framework:
 - Should identify repeated spatial clusters.
 
 <a href="url"><img src="images/Plot1.png" align="center" width="500"></a>
+Median house price in Boston
+
