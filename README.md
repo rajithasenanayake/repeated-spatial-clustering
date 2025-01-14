@@ -35,6 +35,6 @@ The primary objective of this project is to develop a framework for identifying 
 2. Perform a nonparametric spatial invariance test to identify repeated spatial patterns.
 3. Re-partition the clusters based on the spatial invariance test results.
 
-#### Constrained Agglomerative Hierarchical Clustering
+### Constrained Agglomerative Hierarchical Clustering
 
-test
+This is an extension of the standard agglomerative hierarchical clustering where we can define contiguity constraints to guide the clustering process.
