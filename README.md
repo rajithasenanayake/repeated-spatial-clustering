@@ -27,5 +27,10 @@ Regionalization clustering ensures spatially cohesive clusters but does not iden
 # Methods
 
 The data we work on this project:
-- \\(X(s) \in \mathbb{R}^{n \times p}\\)
+- \\(\textit{\textbf{X}}(s) \in \mathbb{R}^{n \times p}\\)
 - \\(s \in \mathcal{D} \subset \mathbb{R}^{d}, d = 2\\)
+
+The primary objective of this project is to develop a framework for identifying repeated spatial clusters while accounting for spatial dependence and contiguity. This is achieved by:
+1. Identifying spatially contiguous clusters (Constrained Agglomerative Hierarchical Clustering is used for this step).
+2. Perform a nonparametric spatial invariance test to identify repeated spatial patterns.
+3. Re-partition the clusters based on the spatial invariance test results.
