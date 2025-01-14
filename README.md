@@ -108,3 +108,28 @@ This is an extension of the standard agglomerative hierarchical clustering, wher
 
 </div>
 
+
+<table>
+<tr>
+<td>
+
+| Location | 1  | 2  | 3  |
+|----------|----|----|----|
+| 2        | 10 |    |    |
+| 3        | 5  | 5  |    |
+| 4        | 2  | 8  | 3  |
+
+</td>
+<td>
+
+| From | To | Distance |
+|------|----|----------|
+| 1    | 2  | 10       |
+| 1    | 3  | 5        |
+| 2    | 3  | 5        |
+| 2    | 4  | 8        |
+| 3    | 4  | 3        |
+
+</td>
+</tr>
+</table>
