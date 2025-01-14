@@ -8,6 +8,7 @@ An ideal spatial clustering framework:
 
 <div style="text-align: center;">
   <img src="images/Plot1.png" width="500" alt="Spatial Clusters">
-  <p style="margin-top: 10px; font-style: italic;">Figure 1: Median house prices of suburbs in Boston</p>
+  <p style="margin-top: 10px; font-style: italic;">Figure 1: Median house prices in Boston City</p>
 </div>
 
+Figure 1 shows that suburbs in Q4 creates spatiallly conitguous clusters. There are also few suburbs belonging to Q4 that appear at distant locations resembling repeated spatial clusters.
