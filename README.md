@@ -11,4 +11,4 @@ An ideal spatial clustering framework:
   <p style="margin-top: 10px; font-style: italic;">Figure 1: Median house prices in Boston City</p>
 </div>
 
-Figure 1 shows that suburbs in Q4 creates spatiallly conitguous clusters. There are also few suburbs belonging to Q4 that appear at distant locations resembling repeated spatial clusters.
+Figure 1 shows that suburbs in Q4 creates spatiallly conitguous clusters. There are also a few suburbs belonging to Q4 that appear at distant locations resembling repeated spatial clusters.
