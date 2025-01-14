@@ -12,4 +12,8 @@ An ideal spatial clustering framework:
     test caption
 </p>
 
+<div style="text-align: center;">
+  <img src="images/Plot1.png" width="500" alt="Spatial Clusters">
+  <p style="margin-top: 10px; font-style: italic;">Figure 1: Caption describing the image</p>
+</div>
 
