@@ -8,9 +8,9 @@ An ideal spatial clustering framework:
 
 <figure style="text-align: center;">
   <a href="url">
-    <img src="images/Plot1.png" align="center" width="500">
+    <img src="images/Plot1.png" width="500">
   </a>
-  <figcaption>Figure 1: Median house prices in Boston</figcaption>
+  <figcaption style="margin-top: 10px;">Figure 1: Median house prices in Boston</figcaption>
 </figure>
 
 
