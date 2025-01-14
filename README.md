@@ -6,4 +6,4 @@ An ideal spatial clustering framework:
 - Should form spatially contiguous clusters.
 - Should identify repeated spatial clusters.
 
-<a href="url"><img src="images/Plot1.png" align="left" width="150"></a>
+<a href="url"><img src="images/Plot1.png" align="left" width="500"></a>
