@@ -6,14 +6,8 @@ An ideal spatial clustering framework:
 - Should form spatially contiguous clusters.
 - Should identify repeated spatial clusters.
 
-<p>
-    <a href="url"><img src="images/Plot1.png" align="center" width="500"></a>"
-
-    test caption
-</p>
-
 <div style="text-align: center;">
   <img src="images/Plot1.png" width="500" alt="Spatial Clusters">
-  <p style="margin-top: 10px; font-style: italic;">Figure 1: Caption describing the image</p>
+  <p style="margin-top: 10px; font-style: italic;">Figure 1: Median house prices of suburbs in Boston</p>
 </div>
 
