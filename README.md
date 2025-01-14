@@ -87,7 +87,8 @@ This is an extension of the standard agglomerative hierarchical clustering, wher
 
 ## Variable Declarations
 
-| **var** | **let** | **const** |
-|-----|-----|-----|
-| Declares a variable, optionally initializing it to a value. | Declares a block-scoped, local variable, optionally initializing it to a value. | Declares a block-scoped, read-only named constant. |
-| Variable declared by **`var`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. | Variable declared by **`let`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. | Variable declared by **`const`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. |
+| Location | 1 | 2 | 3 |
+| --- | --- | --- | --- |
+| 2 | 10 |  |  |
+| 3 | 5 | 5 |  |
+| 4 | 2 | 8 | 3 |
