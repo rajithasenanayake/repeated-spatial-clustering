@@ -150,3 +150,5 @@ As the final step, we re-partition the clusters obtained from CAHC based on the 
 
 # Application on Spatial Omics Data
 
+Spatial omics technologies have facilitated the collection of data on biological markers and their spatial locations within tissues. An important part of the downstream analysis of spatial omics is identifying different tissue domains based on the collected biological markers, and some of these tissue domains could be repeated spatial clusters. Our proposed framework can detect these spatial domains including the repeated repeated spatial patterns. We demonstrate this by applying the framework on some patient data who were diagnosed with Triple Negative Breast Cancer (TNBC). This data is a spatial proteomics dataset obtained through multiplexed ion beam imaging by time-of-fight (MIBI-TOF) technology.
+
