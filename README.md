@@ -117,7 +117,7 @@ In standard agglomerative hierarchical clustering, we merge the two observations
 We use the Maximum Mean Discrepancy (MMD) statistic with block permutation for conducting spatial invariance test to identify repeated spatial patterns. We perform this test on all distinct pairs of clusters obtained from applying the CAHC. 
 
 We test the following null hypothesis:
-- \\(\mathcal{H}_{0}\\): The tested Pair of clusters is spatially invariant.
+- \\(\mathcal{H}_{0}\\): The tested pair of clusters is spatially invariant.
 
 The MMD\\(^{2}\\) quantifies the difference between the means of feature embeddings in a high-dimensional space. Let \\(\textit{\textbf{x}}\\) and \\(\textit{\textbf{y}}\\) be two samples from distributions \\(P\\) and \\(Q\\).
 
@@ -151,4 +151,18 @@ As the final step, we re-partition the clusters obtained from CAHC based on the 
 # Application on Spatial Omics Data
 
 Spatial omics technologies have facilitated the collection of data on biological markers and their spatial locations within tissues. An important part of the downstream analysis of spatial omics is identifying different tissue domains based on the collected biological markers, and some of these tissue domains could be repeated spatial clusters. Our proposed framework can detect these spatial domains including the repeated repeated spatial patterns. We demonstrate this by applying the framework on some patient data who were diagnosed with Triple Negative Breast Cancer (TNBC). This data is a spatial proteomics dataset obtained through multiplexed ion beam imaging by time-of-fight (MIBI-TOF) technology.
+
+### TNBC Patient 04
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <div style="text-align: center;">
+    <img src="images/Plot1.png" width="250" alt="First Image">
+    <p style="margin-top: 10px; font-style: italic;">Figure 1: Caption for the first image.</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="images/Plot2.png" width="250" alt="Second Image">
+    <p style="margin-top: 10px; font-style: italic;">Figure 2: Caption for the second image.</p>
+  </div>
+</div>
+
 
