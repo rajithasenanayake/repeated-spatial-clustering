@@ -160,7 +160,7 @@ Spatial omics technologies have facilitated the collection of data on biological
     <p style="margin-top: 10px; font-style: italic;">Figure 4 (a): Constrained clustering results.</p>
   </div>
   <div style="text-align: left;">
-    <img src="images/Plot5.png" width="270" alt="Second Image">
+    <img src="images/Plot5.png" width="260" alt="Second Image">
     <p style="margin-top: 10px; font-style: italic;">Figure 4 (b): Pairwise test results.</p>
   </div>
 </div>
@@ -172,7 +172,7 @@ Spatial omics technologies have facilitated the collection of data on biological
     <p style="margin-top: 10px; font-style: italic;">Figure 5 (a): Final clustering results based on the proposed method.</p>
   </div>
   <div style="text-align: left;">
-    <img src="images/Plot7.png" width="340" alt="Second Image">
+    <img src="images/Plot7.png" width="345" alt="Second Image">
     <p style="margin-top: 10px; font-style: italic;">Figure 5 (b): Benchmark results - cellular neighborhoods based three subset of cell types.</p>
   </div>
 </div>
