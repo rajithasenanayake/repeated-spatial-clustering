@@ -44,6 +44,8 @@ This is an extension of the standard agglomerative hierarchical clustering, wher
   <p style="margin-top: 10px; font-style: italic; text-align: left;">Figure 2: X(1)=10, X(2)=20, X(3)=15, X(4)=12 with spatial locations 1, 2, 3, 4. The "must-links" created by the 2-nearest neighborhood structure are presented as edges.</p>
 </div>
 
+The following two tables show the distance matrix (left) and the must-link constraints (right).
+
 <div style="display: flex; gap: 20px; justify-content: space-between;">
 
 <table>
@@ -109,27 +111,3 @@ This is an extension of the standard agglomerative hierarchical clustering, wher
 </div>
 
 
-<table>
-<tr>
-<td>
-
-| Location | 1  | 2  | 3  |
-|----------|----|----|----|
-| 2        | 10 |    |    |
-| 3        | 5  | 5  |    |
-| 4        | 2  | 8  | 3  |
-
-</td>
-<td>
-
-| From | To | Distance |
-|------|----|----------|
-| 1    | 2  | 10       |
-| 1    | 3  | 5        |
-| 2    | 3  | 5        |
-| 2    | 4  | 8        |
-| 3    | 4  | 3        |
-
-</td>
-</tr>
-</table>
