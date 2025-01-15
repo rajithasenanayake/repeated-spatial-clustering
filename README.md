@@ -135,4 +135,9 @@ Rationale for selecting MMD as the test statistic:
 
 ### Re-partitioning of the Clusters
 
-As the final step, we re-partition the clusters obtained from CAHC based on the pairwise spatial invariance test. We present the pairwise test results in a graph, which guides re-partitioning procedure.
+As the final step, we re-partition the clusters obtained from CAHC based on the pairwise spatial invariance test. We present the pairwise test results in a graph, which guides re-partitioning procedure. Since this test involves multiple comparisons, we use the false discovery rate at a 0.05 significance level.
+
+<div style="text-align: center;">
+  <img src="images/Plot3.png" width="250" alt="Pairwise Results">
+  <p style="margin-top: 10px; font-style: italic;">Figure 3: Graph based on pairwise test results for 5 clusters.</p>
+</div>
