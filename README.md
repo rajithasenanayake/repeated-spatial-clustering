@@ -117,12 +117,22 @@ In standard agglomerative hierarchical clustering, we merge the two observations
 We use the Maximum Mean Discrepancy (MMD) statistic with block permutation for conducting spatial invariance test to identify repeated spatial patterns. We perform this test on all distinct pairs of clusters obtained from applying the CAHC. 
 
 We test the following null hypothesis:
-- \\(\mathcal{H}_{0}\\): Pair of tested clusters is spatially invariant.
+- \\(\mathcal{H}_{0}\\): The tested Pair of clusters is spatially invariant.
 
 The MMD\\(^{2}\\) quantifies the difference between the means of feature embeddings in a high-dimensional space. Let \\(\textit{\textbf{x}}\\) and \\(\textit{\textbf{y}}\\) be two samples from distributions \\(P\\) and \\(Q\\).
 
 $$\text{MMD}^{2}(P,Q) = \bigl|\bigl|\mathbb{E}_{\textit{\textbf{X}}\sim P}(\phi(\textit{\textbf{x}}))-\mathbb{E}_{\textit{\textbf{Y}}\sim Q}(\phi(\textit{\textbf{y}}))\bigr|\bigr|_{\mathcal{H}_{k}}^{2},$$
 
-- \\(\mathcal{H}_{k}\\): Reproducing Kernel Hilbert Space (RKHS) associate with a kernel function \\(K(\cdot, \cdot)\\).
+- \\(\mathcal{H}_{k}\\): Reproducing Kernel Hilbert Space (RKHS) associate with a kernel function \\(k(\cdot, \cdot)\\).
 - \\(\phi(\cdot)\\): Feature map to a RKHS.
 
+The kernel function calculates the similarity between two data points in a high dimensional space without explicitly mapping the data points into that space. This also allows us to estimate the MMD\\(^{2}\\) without explicitly mapping the data points into a high dimensional space.
+
+Rationale for selecting MMD as the test statistic:
+- Does not require any distributional assumption on data.
+- Robust to weak dependencies between observations.
+- Provides flexibility to use different kernels, which could capture wide range of differences between distributions when testing for spatial invariance.
+
+### Re-partitioning of the Clusters
+
+As the final step, we re-partition the clusters obtained from CAHC based on the pairwise spatial invariance test. We present the pairwise test results in a graph, which guides re-partitioning procedure.
