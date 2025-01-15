@@ -148,3 +148,5 @@ As the final step, we re-partition the clusters obtained from CAHC based on the 
 
 \\(Rule of thumb\\): Merge clusters that create fully connected sub-graphs.
 
+# Application on Spatial Omics Data
+
