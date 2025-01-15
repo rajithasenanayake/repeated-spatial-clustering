@@ -35,7 +35,7 @@ The primary objective of this project is to develop a framework for identifying 
 2. Perform a nonparametric spatial invariance test to identify repeated spatial patterns.
 3. Re-partition the clusters based on the spatial invariance test results.
 
-### Constrained Agglomerative Hierarchical Clustering
+### Constrained Agglomerative Hierarchical Clustering (CAHC)
 
 This is an extension of the standard agglomerative hierarchical clustering, where we can define contiguity constraints to guide the clustering process. Consider the follwing toy example shown in Figure 2.
 
@@ -111,3 +111,10 @@ The following two tables show the distance matrix (left) and the must-link const
 </div>
 
 In standard agglomerative hierarchical clustering, we merge the two observations with the smallest distance between them. In this example, the smallest distance is 3, between locations 1 and 4. In constrained agglomerative hierarchical clustering, we also have consider the must-links constraints. At a given merging step, we need to merge the two locations with the smallest distance that has a link between them. So for this example, we need to merge the locations 3 and 4 at the first merging step. This newly created cluster inherits all the links of location 3 and 4. This process continues until all locations are merged into a single cluster or until all contiguity constraints are satisfied. 
+
+### Maximum Mean Discrepancy
+
+We use the Maximum Mean Discrepancy (MMD) statistic with block permutation for conducting spatial invariance test to identify repeated spatial patterns. We perform this test on all distinct pairs of clusters obtained from applying the CAHC. We test the following null hypothesis:
+
+- \\(\mathcal{H}_{0}: \text{Pair of tested clusters is spatially invariant}\\)
+
