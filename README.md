@@ -146,7 +146,7 @@ As the final step, we re-partition the clusters obtained from CAHC based on the 
 - Edges: Connect clusters with similar distributions.
 - Edge Label: Observed MMD\\(^{2}\\) between two clusters.
 
-\\(Rule of thumb\\): Merge clusters that create fully connected sub-graphs.
+\\(\textit{Rule of thumb}\\): Merge clusters that create fully connected sub-graphs.
 
 # Application on Spatial Omics Data
 
