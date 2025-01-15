@@ -160,7 +160,7 @@ Spatial omics technologies have facilitated the collection of data on biological
     <p style="margin-top: 10px; font-style: italic;">Figure 4 (a): Constrained clustering results.</p>
   </div>
   <div style="text-align: left;">
-    <img src="images/Plot5.png" width="255" alt="Second Image">
+    <img src="images/Plot5.png" width="257" alt="Second Image">
     <p style="margin-top: 10px; font-style: italic;">Figure 4 (b): Pairwise test results.</p>
   </div>
 </div>
