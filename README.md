@@ -119,7 +119,7 @@ We use the Maximum Mean Discrepancy (MMD) statistic with block permutation for c
 We test the following null hypothesis:
 - \\(\mathcal{H}_{0}\\): Pair of tested clusters is spatially invariant.
 
-The MMD\\(^{2}\\) quantifies the difference between the means of feature embeddings in a high-dimensional space. Let \\(\textit{\textbf{x}}\\) and \\(\textit{\textbf{y}\\) be two samples from distributions \\(P\\) and \\(Q\\).
+The MMD\\(^{2}\\) quantifies the difference between the means of feature embeddings in a high-dimensional space. Let \\(\textit{\textbf{x}}\\) and \\(\textit{\textbf{y}}\\) be two samples from distributions \\(P\\) and \\(Q\\).
 
-$$\text{MMD}^{2}(P,Q) = \norm{\mathbb{E}_{\textit{\textbf{X}}~P}(\phi(\textit{\textbf{X}}))}$$
+$$\text{MMD}^{2}(P,Q) = \bigl|\bigl|\mathbb{E}_{\textit{\textbf{X}}~P}(\phi(\textit{\textbf{X}}))}bigr|bigr|$$
 
