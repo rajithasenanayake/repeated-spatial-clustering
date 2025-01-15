@@ -114,7 +114,12 @@ In standard agglomerative hierarchical clustering, we merge the two observations
 
 ### Maximum Mean Discrepancy
 
-We use the Maximum Mean Discrepancy (MMD) statistic with block permutation for conducting spatial invariance test to identify repeated spatial patterns. We perform this test on all distinct pairs of clusters obtained from applying the CAHC. We test the following null hypothesis:
+We use the Maximum Mean Discrepancy (MMD) statistic with block permutation for conducting spatial invariance test to identify repeated spatial patterns. We perform this test on all distinct pairs of clusters obtained from applying the CAHC. 
 
-- \\(\mathcal{H}_{0}: \text{Pair of tested clusters is spatially invariant}\\)
+We test the following null hypothesis:
+- \\(\mathcal{H}_{0}\\): Pair of tested clusters is spatially invariant.
+
+The MMD\\(^{2}\\) quantifies the difference between the means of feature embeddings in a high-dimensional space. Let \\(\textit{\textbf{x}}\\) and \\(\textit{\textbf{y}\\) be two samples from distributions \\(P\\) and \\(Q\\).
+
+$$\text{MMD}^{2}(P,Q) = \norm{\mathbb{E}_{\textit{\textbf{X}}~P}(\phi(\textit{\textbf{X}}))}$$
 
