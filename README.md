@@ -176,3 +176,28 @@ Spatial omics technologies have facilitated the collection of data on biological
     <p style="margin-top: 10px; font-style: italic;">Figure 5 (b): Benchmark results - cellular neighborhoods based three subset of cell types.</p>
   </div>
 </div>
+
+### TNBC Patient 26
+
+<div style="display: flex; justify-content: left; align-items: left; gap: 20px;">
+  <div style="text-align: left;">
+    <img src="images/Plot8.png" width="300" alt="First Image">
+    <p style="margin-top: 10px; font-style: italic;">Figure 4 (a): Constrained clustering results.</p>
+  </div>
+  <div style="text-align: left;">
+    <img src="images/Plot9.png" width="257" alt="Second Image">
+    <p style="margin-top: 10px; font-style: italic;">Figure 4 (b): Pairwise test results.</p>
+  </div>
+</div>
+
+
+<div style="display: flex; justify-content: left; align-items: left; gap: 20px;">
+  <div style="text-align: left;">
+    <img src="images/Plot10.png" width="350" alt="First Image">
+    <p style="margin-top: 10px; font-style: italic;">Figure 5 (a): Final clustering results based on the proposed method.</p>
+  </div>
+  <div style="text-align: left;">
+    <img src="images/Plot11.png" width="345" alt="Second Image">
+    <p style="margin-top: 10px; font-style: italic;">Figure 5 (b): Benchmark results - cellular neighborhoods based three subset of cell types.</p>
+  </div>
+</div>
