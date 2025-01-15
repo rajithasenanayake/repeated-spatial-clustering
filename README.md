@@ -193,7 +193,7 @@ Spatial omics technologies have facilitated the collection of data on biological
 
 <div style="display: flex; justify-content: left; align-items: left; gap: 20px;">
   <div style="text-align: left;">
-    <img src="images/Plot10.png" width="380" alt="First Image">
+    <img src="images/Plot10.png" width="480" alt="First Image">
     <p style="margin-top: 10px; font-style: italic;">Figure 6 (a): Final clustering results based on the proposed method.</p>
   </div>
   <div style="text-align: left;">
