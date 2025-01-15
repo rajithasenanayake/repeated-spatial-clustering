@@ -142,11 +142,10 @@ As the final step, we re-partition the clusters obtained from CAHC based on the 
   <p style="margin-top: 10px; font-style: italic;">Figure 3: Graph based on pairwise test results for 5 clusters.</p>
 </div>
 
-- \\(\textbf{Nodes}\\): Clusters obtained from CAHC.
-- \\(\textbf{Edges}\\): Connect clusters with similar distributions.
-- \\(\textbf{Edge Label}\\): Observed MMD\\(^{2}\\) between two clusters.
+- Nodes: Clusters obtained from CAHC.
+- Edges: Connect clusters with similar distributions.
+- Edge Label: Observed MMD\\(^{2}\\) between two clusters.
 
 Rule of thumb:
-<div style="border: 1px solid black; padding: 10px; display: inline-block;">
-Merge clusters that create fully connected sub-graphs.
-</div>
+\\(\textit{Merge clusters that create fully connected sub-graphs}\\).
+
