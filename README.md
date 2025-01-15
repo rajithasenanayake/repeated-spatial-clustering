@@ -181,7 +181,7 @@ Spatial omics technologies have facilitated the collection of data on biological
 
 <div style="display: flex; justify-content: left; align-items: left; gap: 20px;">
   <div style="text-align: left;">
-    <img src="images/Plot8.png" width="300" alt="First Image">
+    <img src="images/Plot8.png" width="302" alt="First Image">
     <p style="margin-top: 10px; font-style: italic;">Figure 4 (a): Constrained clustering results.</p>
   </div>
   <div style="text-align: left;">
@@ -193,11 +193,11 @@ Spatial omics technologies have facilitated the collection of data on biological
 
 <div style="display: flex; justify-content: left; align-items: left; gap: 20px;">
   <div style="text-align: left;">
-    <img src="images/Plot10.png" width="350" alt="First Image">
-    <p style="margin-top: 10px; font-style: italic;">Figure 5 (a): Final clustering results based on the proposed method.</p>
+    <img src="images/Plot10.png" width="352" alt="First Image">
+    <p style="margin-top: 10px; font-style: italic;">Figure 6 (a): Final clustering results based on the proposed method.</p>
   </div>
   <div style="text-align: left;">
     <img src="images/Plot11.png" width="345" alt="Second Image">
-    <p style="margin-top: 10px; font-style: italic;">Figure 5 (b): Benchmark results - cellular neighborhoods based three subset of cell types.</p>
+    <p style="margin-top: 10px; font-style: italic;">Figure 6 (b): Benchmark results - cellular neighborhoods based three subset of cell types.</p>
   </div>
 </div>
